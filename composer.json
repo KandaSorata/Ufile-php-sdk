@@ -2,8 +2,7 @@
     "name": "ucloud/ufile-php-sdk",
     "type": "library",
     "description": "UCloud Resource (Cloud) Storage SDK for PHP",
-    "keywords": ["qiniu", "storage", "sdk", "cloud"],
-    "homepage": "https://docs.ucloud.cn/",
+    "keywords": ["ucloud", "storage", "sdk", "cloud"],
     "license": "MIT",
     "authors": [
         {
