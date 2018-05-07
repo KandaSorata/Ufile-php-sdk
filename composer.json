@@ -1,6 +1,9 @@
 {
     "name": "ucloud/ufile-php-sdk",
-    "description": "Ufile PHP SDK composer package",
+    "type": "library",
+    "description": "UCloud Resource (Cloud) Storage SDK for PHP",
+    "keywords": ["qiniu", "storage", "sdk", "cloud"],
+    "homepage": "https://docs.ucloud.cn/",
     "license": "MIT",
     "authors": [
         {
@@ -8,9 +11,11 @@
             "email": "superdinghh@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=5.6.0"
+    },
     "autoload": {
-        "UCloud\\": "src/"
+        "psr-4": {"UCloud\\": "src/"},
+        "files": ["src/functions.php"]
     }
 }
