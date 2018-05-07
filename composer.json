@@ -1,0 +1,16 @@
+{
+    "name": "ucloud/ufile-php-sdk",
+    "description": "Ufile PHP SDK composer package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MadScientist",
+            "email": "superdinghh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "UCloud\\": "src/"
+    }
+}
